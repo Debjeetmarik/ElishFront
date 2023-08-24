@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "myfont";
+  src: url("https://get.fontspace.co/download/font/10eM/ZjhmNjQ5ZTg4MjliNGRiNjgyM2Y0NDQ4NzdjMWVjZTIudHRm/Freedom-10eM.ttf") format("truetype");
+}
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  .colored-section {
+    background-color: #eeac57;
+    color: #fff;
+  }
+
+  .grey-section{
+    background-color: #f5f5f5;
+  }
+
+  .navbar-brand img{
+    width: 250px;
+    height: auto;
+  }
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  
+  .push-right{
+    justify-content: flex-end;
+  }
+
+  .navbar a{
+    color:rgba(255,255,255,.5);
+    font-size: 1.2rem;
+  }
+
+  .nav-link{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+  }
+
+  .container-fluid{
+    padding: 1% 10% 9%;
+  }
+ 
+  .big-heading {
+    font-family: "myfont";
+    /* font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5; */
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .image-iphone {
+    width: 15%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+  }
+
+  #title {
+    text-align: left;
+}
+
+  #features {
+    padding: 4% 15%;
+    position: relative;
+  }
+
+  
+  .feature-box {
+    padding: 0;
+  }
+
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 35px;
+  }
+  .feature-box img{
+    width: 64px;
+    height: auto;
+    mix-blend-mode: multiply;
+  }
+  .spacer{
+    margin: 0 10px;
+    box-shadow: 0px 49px 40px rgba(50, 50, 71, 0.05);
+    padding: 10%;
+  }
+
+  #press {
+    padding: 5% 1%;
+  }
+  
+  .press-img {
+    width: 8%;
+    margin: 20px 40px;
+   
+  }
+  .roundedimg{
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin: 30px auto;
+  }
+
+img:hover{
+
+    transform: scale(1.6);
+    transition: all 1.2s ease-in-out;
+  }
